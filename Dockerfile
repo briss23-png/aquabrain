@@ -22,6 +22,12 @@ COPY . .
 
 RUN composer install --no-dev
 
+# ✅ CORRECTION : Définir le dossier public comme racine du site
+RUN mv docker-php-ext-* /usr/local/bin/ 2>/dev/null || true
+RUN ln -s /var/www/html/public /var/www/html/public_html
+RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
+RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/apache2.conf
+
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html/storage \
     && chmod -R 755 /var/www/html/bootstrap/cache
