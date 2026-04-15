@@ -70,7 +70,7 @@
 
         <!-- SECTION PROJET 1 : LOFTY FARM -->
 <section class="container" style="padding: 60px 20px;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; background: rgba(255,255,255,0.05); border-radius: 30px; padding: 40px; border: 1px solid rgba(255,215,0,0.2);">
+    <div class="project-card">
         
         <!-- Image à gauche -->
         <div style="border-radius: 20px; overflow: hidden; border: 3px solid var(--gold-color); height: 300px;">
@@ -100,7 +100,7 @@
 
 <!-- SECTION PROJET 2 : SEM GROUPE -->
 <section class="container" style="padding: 60px 20px;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; background: rgba(255,255,255,0.05); border-radius: 30px; padding: 40px; border: 1px solid rgba(255,215,0,0.2);">
+    <div class="project-card">
         
         <!-- Texte à gauche -->
         <div>
@@ -130,7 +130,7 @@
 
 <!-- SECTION PROJET 3 : IFAD AQUACULTURE -->
 <section class="container" style="padding: 60px 20px;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; background: rgba(255,255,255,0.05); border-radius: 30px; padding: 40px; border: 1px solid rgba(255,215,0,0.2);">
+    <div class="project-card">
         
         <!-- Image à gauche -->
         <div style="border-radius: 20px; overflow: hidden; border: 3px solid var(--gold-color); height: 300px;">
@@ -160,7 +160,7 @@
 
 <!-- SECTION PROJET 4 : ACCESSLANDS -->
 <section class="container" style="padding: 60px 20px;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; background: rgba(255,255,255,0.05); border-radius: 30px; padding: 40px; border: 1px solid rgba(255,215,0,0.2);">
+    <div class="project-card">
         
         <!-- Texte à gauche -->
         <div>
@@ -191,7 +191,7 @@
 
 <!-- SECTION PROJET 5 : ODA AGROBUSINESS -->
 <section class="container" style="padding: 60px 20px;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; background: rgba(255,255,255,0.05); border-radius: 30px; padding: 40px; border: 1px solid rgba(255,215,0,0.2);">
+    <div class="project-card">
         
         <!-- Image à gauche -->
         <div style="border-radius: 20px; overflow: hidden; border: 3px solid var(--gold-color); height: 300px;">
@@ -221,7 +221,7 @@
 
 <!-- SECTION PROJET 6 : PROJET BÉNIN (EN COURS) -->
 <section class="container" style="padding: 60px 20px;">
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; background: rgba(255,255,255,0.05); border-radius: 30px; padding: 40px; border: 1px solid rgba(255,215,0,0.2);">
+    <div class="project-card">
         
         <!-- Image à gauche -->
         <div style="border-radius: 20px; overflow: hidden; border: 3px solid var(--gold-color); height: 300px;">
