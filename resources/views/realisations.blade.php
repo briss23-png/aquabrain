@@ -9,6 +9,27 @@
     
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    @media (max-width: 768px) {
+        .page-hero {
+            padding: 100px 15px 50px !important;
+        }
+        .page-hero h1 {
+            font-size: 2rem !important;
+        }
+        #realisations > div > div {
+            grid-template-columns: 1fr !important;
+            padding: 20px !important;
+        }
+        .service-tag {
+            font-size: 0.7rem !important;
+            padding: 4px 10px !important;
+        }
+        [style*="display: grid"] {
+            gap: 20px !important;
+        }
+    }
+    </style>
 </head>
 <body>
 

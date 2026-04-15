@@ -1064,3 +1064,190 @@ section {
     }
     .service-tag { font-size: 0.9rem; padding: 6px 15px; }
 }
+
+/* ==================================
+   RESPONSIVE COMPLET - TOUS ÉCRANS
+================================== */
+
+/* Tablettes (768px - 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+        padding: 0 15px;
+    }
+    
+    .value-chain-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px;
+    }
+    
+    .counters-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    h2 {
+        font-size: 2rem !important;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+/* Mobiles (moins de 768px) */
+@media (max-width: 768px) {
+    /* Navigation */
+    .navbar .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    .nav-links li a {
+        font-size: 0.8rem;
+        padding: 5px 8px;
+    }
+    
+    /* Sections */
+    section {
+        padding: 40px 15px !important;
+    }
+    
+    /* Grilles */
+    .value-chain-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .counters-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Hero */
+    .hero-content {
+        padding: 20px !important;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem !important;
+    }
+    
+    .hero-content p {
+        font-size: 1rem !important;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .hero-stats {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .stat-chiffre {
+        font-size: 1.5rem !important;
+    }
+    
+    /* Prix badge */
+    .prix-badge {
+        flex-direction: column;
+        padding: 10px !important;
+    }
+    
+    .prix-annee {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    
+    /* Services tags */
+    .service-tag {
+        font-size: 0.8rem;
+        padding: 5px 12px !important;
+        white-space: normal !important;
+    }
+    
+    /* Projets (page réalisations) */
+    #realisations > div > div {
+        grid-template-columns: 1fr !important;
+        padding: 20px !important;
+    }
+    
+    #realisations h2 {
+        text-align: center !important;
+    }
+    
+    /* Formulaire contact */
+    #contact-form {
+        padding: 0 10px;
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    footer p {
+        font-size: 0.8rem;
+    }
+    
+    /* Carte */
+    .map-container {
+        overflow-x: auto;
+    }
+    
+    .map-image {
+        width: auto;
+        min-width: 600px;
+    }
+    
+    /* Tooltip */
+    #project-tooltip {
+        width: 280px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+}
+
+/* Très petits mobiles (moins de 480px) */
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.5rem !important;
+    }
+    
+    h2 {
+        font-size: 1.5rem !important;
+    }
+    
+    .cta-button-primary, 
+    .cta-button-secondary {
+        padding: 10px 20px !important;
+        font-size: 0.9rem !important;
+    }
+    
+    .navbar .logo {
+        font-size: 1.2rem;
+    }
+    
+    .nav-links li a {
+        font-size: 0.7rem;
+        padding: 4px 6px;
+    }
+    
+    .counter-item span {
+        font-size: 2rem !important;
+    }
+    
+    .partner-logo {
+        width: 150px !important;
+        font-size: 0.9rem !important;
+    }
+}
