@@ -67,7 +67,7 @@
                 </p>
                 
                 <p class="animate-on-scroll">
-                    AQUABRAIN propose des solutions intelligentes pour des projets aquacoles rentables et durables au Togo et en Afrique de l'Ouest. Nous intervenons sur l'ensemble de la chaîne de valeur aquacole, depuis l'étude et la conception jusqu'au suivi, l'évaluation et la formation.
+                    AQUABRAIN propose des solutions intelligentes pour des projets aquacoles rentables et durables au Togo et en Afrique. Nous intervenons sur l'ensemble de la chaîne de valeur aquacole, depuis l'étude et la conception jusqu'au suivi, l'évaluation et la formation.
                 </p>
                 
                 <!-- BOUTONS CTA -->
@@ -79,20 +79,16 @@
                 <!-- STATISTIQUES RAPIDES -->
                 <div class="hero-stats">
                     <div class="stat">
-                        <span class="stat-chiffre">5+</span>
+                        <span class="stat-chiffre">7+</span>
                         <span class="stat-texte">Ans d'expertise</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-chiffre">4+</span>
+                        <span class="stat-chiffre">7+</span>
                         <span class="stat-texte">Pays</span>
                     </div>
                     <div class="stat">
                         <span class="stat-chiffre">1500+</span>
                         <span class="stat-texte">Apprenants</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-chiffre">20%</span>
-                        <span class="stat-texte">Prod. nationale</span>
                     </div>
                 </div>
             </div>
@@ -161,7 +157,7 @@
             
             <!-- Texte de la fiche -->
             <p style="text-align: center; max-width: 800px; margin: 0 auto 30px; color: white;">
-                Contribuer au développement durable de l'aquaculture en Afrique de l'Ouest à travers des solutions techniques fiables, innovantes et adaptées aux réalités locales.
+                Contribuer au développement durable de l'aquaculture en Afrique à travers des solutions techniques fiables, innovantes et adaptées aux réalités locales.
             </p>
             
             <div class="counters-grid">
@@ -214,10 +210,10 @@
             
             <!-- Texte de la fiche -->
             <p style="text-align: center; max-width: 800px; margin: 0 auto 20px;">
-                Nous accompagnons des institutions, entreprises et projets agricoles en Afrique à travers des études, missions terrain et appuis techniques à fort impact.
+                Nous accompagnons des particuliers, des institutions, entreprises et projets agricoles en Afrique à travers des études, missions terrain et appuis techniques à fort impact.
             </p>
             <p style="text-align: center; margin-bottom: 20px;">
-                Nos interventions couvrent plusieurs pays, notamment le <strong>Togo, le Mali, la RDC et le Bénin</strong>.
+                Nos interventions couvrent plusieurs pays, notamment le <strong>Togo, le Mali, la RDC, le Burkina-Faso, la cote d'ivoire, le Gabon et le Bénin</strong>.
             </p>
             <p style="text-align: center; margin-bottom: 30px; color: var(--gold-color);">
                 Survolez un marqueur pour découvrir le projet en détail avec son image.
@@ -233,15 +229,6 @@
             </div>
         </section>
 
-        <!-- SECTION NOTRE ÉQUIPE (page 4) -->
-        <section id="equipe" class="container animate-on-scroll" style="text-align: center;">
-            <h2>Notre Expert</h2>
-            <div style="max-width: 500px; margin: 0 auto; background: rgba(255,255,255,0.15); backdrop-filter: blur(5px); padding: 30px; border-radius: var(--border-radius); border: 1px solid rgba(255,215,0,0.3);">
-                <div style="width: 150px; height: 150px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: white;"></div>
-                <h3 style="color: var(--gold-color); font-size: 1.5rem;">Roger ASSIONEMEBA</h3>
-                <p style="color: white;">Ingénieur et consultant en aquaculture, spécialisé sur toute la chaîne de valeur aquacole.</p>
-            </div>
-        </section>
 
         <!-- SECTION PARTENAIRES AVEC INTRODUCTION -->
         <section id="partenaires" class="container animate-on-scroll">
@@ -259,34 +246,7 @@
                 </div>
             </div>
         </section>
-
-        <!-- SECTION CONTACT AVEC TEXTE FINAL -->
-        <section id="contact" class="container animate-on-scroll">
-            <h2>Prêt à Cultiver le Succès ?</h2>
-            <p style="text-align: center; margin-bottom: 30px; font-size: 1.2rem; color: var(--gold-color);">
-                <strong>Votre projet aquacole commence ici.</strong>
-            </p>
-            <p style="text-align: center; max-width: 700px; margin: 0 auto 40px;">
-                Discutons ensemble de vos besoins et construisons l'aquaculture de demain.
-            </p>
-            <form id="contact-form">
-                @csrf
-                <div class="form-group">
-                    <input type="text" id="name" name="name" required placeholder=" ">
-                    <label for="name">Votre Nom</label>
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" required placeholder=" ">
-                    <label for="email">Votre Email</label>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
-                    <label for="message">Votre Message</label>
-                </div>
-                <button type="submit" class="cta-button">Envoyer le message</button>
-            </form>
-            <div id="form-feedback" class="form-feedback"></div>
-        </section>
+            
     </main>
 
     <footer>
